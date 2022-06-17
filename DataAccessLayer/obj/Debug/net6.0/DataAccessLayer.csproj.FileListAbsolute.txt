@@ -1,0 +1,12 @@
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

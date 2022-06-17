@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppBackend", "FoodAppBackend\FoodAppBackend.csproj", "{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B88C4207-2759-4792-93F8-891DC99A2704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88C4207-2759-4792-93F8-891DC99A2704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88C4207-2759-4792-93F8-891DC99A2704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88C4207-2759-4792-93F8-891DC99A2704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88C4207-2759-4792-93F8-891DC99A2704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB26F3AD-5374-4B54-AFE4-7EBF90A53522}
+	EndGlobalSection
+EndGlobal
