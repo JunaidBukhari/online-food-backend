@@ -4,7 +4,7 @@
 
 namespace FoodAppBackend.Migrations
 {
-    public partial class Init : Migration
+    public partial class menu : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,9 +15,9 @@ namespace FoodAppBackend.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Price = table.Column<int>(type: "int", nullable: false),
+                    Rating = table.Column<float>(type: "real", nullable: true),
                     Available = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>

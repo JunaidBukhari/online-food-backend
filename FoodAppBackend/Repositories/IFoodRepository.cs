@@ -7,7 +7,7 @@ namespace FoodAppBackend.Repositories
         Task<IEnumerable<Food>> GetFood();
         Task<Food> AddFood(Food food);
         Task<Food> UpdateFood(Food food);
-        void DeleteFood(int Id);
+        Task<Food> DeleteFood(int Id);
 
     }
 }

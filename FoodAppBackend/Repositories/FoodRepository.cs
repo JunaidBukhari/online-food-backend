@@ -18,15 +18,20 @@ namespace FoodAppBackend.Repositories
             return result.Entity;
         }
 
-        public async Task DeleteFood(int Id)
+        public async Task<Food> DeleteFood(int Id)
         {
-            var result = await _Context.Foods.Where(a => a.Id == Id).FirstOrDefaultAsync() ;
-
-            if (result!=null)
+            var result = await _Context.Foods.FindAsync(Id);
+            if (result != null)
             {
-                _Context.Remove(result);
-                await _Context.SaveChangesAsync();
+            _Context.Remove(result);
+        await _Context.SaveChangesAsync();
+         return result;
+
             }
+            else
+            {
+                return null;
+            }    
         }
 
         public async Task<IEnumerable<Food>> GetFood()
@@ -36,19 +41,13 @@ namespace FoodAppBackend.Repositories
 
         public async Task<Food> UpdateFood(Food food)
         {
-            var result = await _Context.Foods.FirstOrDefaultAsync(a => a.Id == food.Id);
-            if (result != null)
-            {
+       
                 _Context.Foods.Update(food);
                 await _Context.SaveChangesAsync();
                 return food;
-            }
-            else { return null; }
+       
         }
 
-        void IFoodRepository.DeleteFood(int Id)
-        {
-            throw new NotImplementedException();
-        }
+    
     }
 }
