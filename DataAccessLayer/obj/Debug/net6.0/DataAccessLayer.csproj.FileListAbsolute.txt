@@ -10,3 +10,15 @@ C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLaye
 C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
 C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
 C:\Junaid\foodApp\FoodAppBackend\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+E:\online food\backend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+E:\online food\backend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+E:\online food\backend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+E:\online food\backend\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

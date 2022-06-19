@@ -10,5 +10,6 @@ namespace FoodAppBackend.DataContext
         {
         }
         public DbSet<Food> Foods { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
