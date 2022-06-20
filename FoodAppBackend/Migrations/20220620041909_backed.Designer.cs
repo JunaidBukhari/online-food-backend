@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodAppBackend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220619125734_backend")]
-    partial class backend
+    [Migration("20220620041909_backed")]
+    partial class backed
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

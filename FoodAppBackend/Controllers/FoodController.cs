@@ -25,8 +25,8 @@ namespace FoodAppBackend.Controllers
                 return StatusCode(500, "NO FOOD FOUND");
             }
         }
-    [HttpDelete("{id:int}")]
-    public async Task<OkObjectResult> DeleteFood(int id)
+       [HttpDelete("{id:int}")]
+       public async Task<OkObjectResult> DeleteFood(int id)
         {
 
             try
@@ -39,8 +39,8 @@ namespace FoodAppBackend.Controllers
                 return (OkObjectResult)StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
         }
-      [HttpPost]
-      public async Task<IActionResult> AddFood(Food food)
+       [HttpPost]
+       public async Task<IActionResult> AddFood(Food food)
         {
             try
             {

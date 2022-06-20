@@ -5,11 +5,9 @@ C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\FoodAppBackend.
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\FoodAppBackend.runtimeconfig.json
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\FoodAppBackend.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\FoodAppBackend.pdb
-C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Humanizer.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -122,3 +120,5 @@ E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\refint\FoodAppBackend.dll
 E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\FoodAppBackend.pdb
 E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\FoodAppBackend.genruntimeconfig.cache
 E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\ref\FoodAppBackend.dll
+C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Humanizer.dll
+C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

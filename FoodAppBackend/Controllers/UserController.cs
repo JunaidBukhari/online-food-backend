@@ -11,10 +11,10 @@ namespace FoodAppBackend.Controllers
         private readonly IUserRepository _userRepository;
         public UserController(IUserRepository userRepository)
         {
-                _userRepository = userRepository;
+            _userRepository = userRepository;
         }
-    [HttpGet]
-        public async Task<IActionResult> GetUser()
+        [HttpGet]
+        public async Task<IActionResult> GetUsers()
         {
             try
             {
@@ -26,20 +26,38 @@ namespace FoodAppBackend.Controllers
                 return StatusCode(500, "NO User FOUND");
             }
         }
-        [HttpPost]
-       public async Task<IActionResult> Login(User user)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(User user)
         {
+
             try
             {
-            return Ok(await _userRepository.Login(user));
+                string email = user.Email;
+                string password = user.Password;
+                return Ok(await _userRepository.Login(email,password));
 
             }catch (Exception ex)
             {
                 return StatusCode(500, "NO User FOUND");
             }
         }
-    
-    
+
+
+        [HttpPost("signup")]
+        public async Task<IActionResult> SignUp(User user)
+        {
+
+            try
+            {
+               
+                return Ok(await _userRepository.SignUp(user));
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error while saving");
+            }
+        }
 
     }
 }

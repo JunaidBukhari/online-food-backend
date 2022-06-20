@@ -4,7 +4,7 @@
 
 namespace FoodAppBackend.Migrations
 {
-    public partial class backend : Migration
+    public partial class backed : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
