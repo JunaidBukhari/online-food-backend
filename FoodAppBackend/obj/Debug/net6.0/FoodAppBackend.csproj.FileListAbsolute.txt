@@ -122,3 +122,5 @@ E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\FoodAppBackend.genruntime
 E:\online food\backend\FoodAppBackend\obj\Debug\net6.0\ref\FoodAppBackend.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Humanizer.dll
 C:\Junaid\foodApp\FoodAppBackend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\online food\backend\FoodAppBackend\bin\Debug\net6.0\Humanizer.dll
+E:\online food\backend\FoodAppBackend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

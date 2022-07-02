@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Junaid\\foodApp\\FoodAppBackend\\FoodAppBackend\\FoodAppBackend.csproj": {}
+    "E:\\online food\\backend\\FoodAppBackend\\FoodAppBackend.csproj": {}
   },
   "projects": {
-    "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "E:\\online food\\backend\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\online food\\backend\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\junaid.bokhari\\.nuget\\packages\\",
-        "outputPath": "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\obj\\",
+        "projectPath": "E:\\online food\\backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\online food\\backend\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\junaid.bokhari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Junaid\\foodApp\\FoodAppBackend\\FoodAppBackend\\FoodAppBackend.csproj": {
+    "E:\\online food\\backend\\FoodAppBackend\\FoodAppBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Junaid\\foodApp\\FoodAppBackend\\FoodAppBackend\\FoodAppBackend.csproj",
+        "projectUniqueName": "E:\\online food\\backend\\FoodAppBackend\\FoodAppBackend.csproj",
         "projectName": "FoodAppBackend",
-        "projectPath": "C:\\Junaid\\foodApp\\FoodAppBackend\\FoodAppBackend\\FoodAppBackend.csproj",
-        "packagesPath": "C:\\Users\\junaid.bokhari\\.nuget\\packages\\",
-        "outputPath": "C:\\Junaid\\foodApp\\FoodAppBackend\\FoodAppBackend\\obj\\",
+        "projectPath": "E:\\online food\\backend\\FoodAppBackend\\FoodAppBackend.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\online food\\backend\\FoodAppBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\junaid.bokhari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Junaid\\foodApp\\FoodAppBackend\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\online food\\backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\online food\\backend\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -135,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
