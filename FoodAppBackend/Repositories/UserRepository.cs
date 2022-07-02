@@ -45,9 +45,14 @@ namespace FoodAppBackend.Repositories
             return result.Entity;
         }
 
-        public Task<User> TotalOrders(User user)
+        public async Task<User> TotalOrders(User user)
         {
-            throw new NotImplementedException();
+            var result =_Context2.Users.Where(u => u.Email == user.Email).FirstOrDefault();
+            result.Orders++;
+            _Context2.Users.Update(result);
+            await _Context2.SaveChangesAsync();
+            return result;
+            
         }
 
      

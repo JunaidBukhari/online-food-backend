@@ -42,7 +42,21 @@ namespace FoodAppBackend.Controllers
             }
         }
 
+        [HttpPost("orders")]
+        public async Task<IActionResult> UpdateUser(User user)
+        {
 
+            try
+            {
+
+                return Ok(await _userRepository.TotalOrders(user));
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error while saving");
+            }
+        }
         [HttpPost("signup")]
         public async Task<IActionResult> SignUp(User user)
         {

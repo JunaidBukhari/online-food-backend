@@ -39,11 +39,19 @@ namespace FoodAppBackend.Repositories
             return await _Context.Foods.ToListAsync();
         }
 
-        public async Task<Food> RateFood(Food food)
+        public async Task<IEnumerable<Food>> RateFood(Food food)
         {
-            _Context.Foods.Update(food);
+
+            var result = await _Context.Foods.Where(fod=> fod.Id== food.Id).ToListAsync();
+            var rating = ((result[0].Rating * result[0].NumberOfRatings) + food.Rating);
+            result[0].NumberOfRatings++;
+            rating = rating / result[0].NumberOfRatings;
+            result[0].Rating = rating;
+            _Context.Foods.Update(result[0]);
             await _Context.SaveChangesAsync();
-            return food;
+            return result;
+
+
         }
 
         public async Task<Food> UpdateFood(Food food)
