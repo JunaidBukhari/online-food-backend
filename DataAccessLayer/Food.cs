@@ -7,6 +7,7 @@
         public string? Image { get; set; }
         public int Price { get; set; }
         public float? Rating { get; set; }
+        public int NumberOfRatings { get; set; }
         public bool Available { get; set; } 
 
     }

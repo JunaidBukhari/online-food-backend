@@ -60,7 +60,21 @@ namespace FoodAppBackend.Controllers
                 return StatusCode(StatusCodes.Status400BadRequest, ex.Message);
             }
         }
-    
+        [HttpPost("rate")]
+        public async Task<IActionResult> RateFood(Food food)
+        {
+
+            try
+            {
+                
+                return Ok(await _foodRepository.RateFood(food));
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500);
+            }
+        }
 
     }
 }

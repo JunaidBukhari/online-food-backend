@@ -39,6 +39,13 @@ namespace FoodAppBackend.Repositories
             return await _Context.Foods.ToListAsync();
         }
 
+        public async Task<Food> RateFood(Food food)
+        {
+            _Context.Foods.Update(food);
+            await _Context.SaveChangesAsync();
+            return food;
+        }
+
         public async Task<Food> UpdateFood(Food food)
         {
        
