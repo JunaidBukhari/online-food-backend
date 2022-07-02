@@ -64,7 +64,6 @@ namespace FoodAppBackend.Repositories
         public async Task<IEnumerable<Order>> GetMyOrders(int id)
         {
             var result = await _Context.Order.Where(order => order.UserId == id).ToListAsync();
-
             if (result != null)
             {
                 return result;
