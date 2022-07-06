@@ -13,7 +13,7 @@ namespace FoodAppBackend.Controllers
         {
             _cartRepository = cartRepository;
         }
-   [HttpGet("{id:int}")]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> GetCart(int id)
         {
             try
@@ -28,7 +28,7 @@ namespace FoodAppBackend.Controllers
         }
 
 
-   [HttpPost]
+        [HttpPost]
         public async Task<IActionResult> UpdateCart(Cart cart)
         {
             try
@@ -43,7 +43,7 @@ namespace FoodAppBackend.Controllers
         }
 
 
-   [HttpDelete("{id:int}")]
+        [HttpDelete("{id:int}")]
         public async Task<OkObjectResult> DeleteCart(int id)
         {
 
