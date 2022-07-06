@@ -1,5 +1,5 @@
-﻿using DataAccessLayer;
-using FoodAppBackend.Repositories;
+﻿using FoodApp.Interfaces;
+using FoodApp.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoodAppBackend.Controllers

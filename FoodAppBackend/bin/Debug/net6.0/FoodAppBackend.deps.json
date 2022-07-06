@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "FoodAppBackend/1.0.0": {
         "dependencies": {
-          "DataAccessLayer": "1.0.0",
+          "FoodApp.DataContext": "1.0.0",
+          "FoodApp.Model": "1.0.0",
+          "FoodApp.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.6",
           "Microsoft.EntityFrameworkCore.Design": "6.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6",
@@ -483,13 +485,41 @@
           }
         }
       },
-      "DataAccessLayer/1.0.0": {
+      "FoodApp.DataContext/1.0.0": {
+        "dependencies": {
+          "FoodApp.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
+        },
+        "runtime": {
+          "FoodApp.DataContext.dll": {}
+        }
+      },
+      "FoodApp.Interfaces/1.0.0": {
+        "dependencies": {
+          "FoodApp.Model": "1.0.0"
+        },
+        "runtime": {
+          "FoodApp.Interfaces.dll": {}
+        }
+      },
+      "FoodApp.Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
         },
         "runtime": {
-          "DataAccessLayer.dll": {}
+          "FoodApp.Model.dll": {}
+        }
+      },
+      "FoodApp.Services/1.0.0": {
+        "dependencies": {
+          "FoodApp.DataContext": "1.0.0",
+          "FoodApp.Interfaces": "1.0.0",
+          "FoodApp.Model": "1.0.0"
+        },
+        "runtime": {
+          "FoodApp.Services.dll": {}
         }
       }
     }
@@ -843,7 +873,22 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "DataAccessLayer/1.0.0": {
+    "FoodApp.DataContext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodApp.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodApp.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FoodApp.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

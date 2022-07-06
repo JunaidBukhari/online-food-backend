@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAppBackend", "FoodAppBackend\FoodAppBackend.csproj", "{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodAppBackend", "FoodAppBackend\FoodAppBackend.csproj", "{95DEABC3-4A98-4C65-95F9-D1A6785FBEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B88C4207-2759-4792-93F8-891DC99A2704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.Model", "DataAccessLayer\FoodApp.Model.csproj", "{B88C4207-2759-4792-93F8-891DC99A2704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.Services", "FoodApp.Services\FoodApp.Services.csproj", "{2FFC2B75-A0DF-43CE-B4FF-9C16EC3C70FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp.DataContext", "FoodApp.DataContext\FoodApp.DataContext.csproj", "{70961B32-EFA0-4EF8-946D-C81AEF510F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp.Interfaces", "FoodApp.Interfaces\FoodApp.Interfaces.csproj", "{D56104BF-11C0-455C-AB43-E985F6699908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B88C4207-2759-4792-93F8-891DC99A2704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88C4207-2759-4792-93F8-891DC99A2704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88C4207-2759-4792-93F8-891DC99A2704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFC2B75-A0DF-43CE-B4FF-9C16EC3C70FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFC2B75-A0DF-43CE-B4FF-9C16EC3C70FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFC2B75-A0DF-43CE-B4FF-9C16EC3C70FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFC2B75-A0DF-43CE-B4FF-9C16EC3C70FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70961B32-EFA0-4EF8-946D-C81AEF510F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70961B32-EFA0-4EF8-946D-C81AEF510F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70961B32-EFA0-4EF8-946D-C81AEF510F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70961B32-EFA0-4EF8-946D-C81AEF510F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56104BF-11C0-455C-AB43-E985F6699908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56104BF-11C0-455C-AB43-E985F6699908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56104BF-11C0-455C-AB43-E985F6699908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56104BF-11C0-455C-AB43-E985F6699908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

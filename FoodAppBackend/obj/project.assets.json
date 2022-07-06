@@ -706,7 +706,35 @@
           }
         }
       },
-      "DataAccessLayer/1.0.0": {
+      "FoodApp.DataContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FoodApp.Model": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
+        },
+        "compile": {
+          "bin/placeholder/FoodApp.DataContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodApp.DataContext.dll": {}
+        }
+      },
+      "FoodApp.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FoodApp.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodApp.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodApp.Interfaces.dll": {}
+        }
+      },
+      "FoodApp.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -714,10 +742,25 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
         },
         "compile": {
-          "bin/placeholder/DataAccessLayer.dll": {}
+          "bin/placeholder/FoodApp.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccessLayer.dll": {}
+          "bin/placeholder/FoodApp.Model.dll": {}
+        }
+      },
+      "FoodApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FoodApp.DataContext": "1.0.0",
+          "FoodApp.Interfaces": "1.0.0",
+          "FoodApp.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FoodApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FoodApp.Services.dll": {}
         }
       }
     }
@@ -2065,15 +2108,32 @@
         "version.txt"
       ]
     },
-    "DataAccessLayer/1.0.0": {
+    "FoodApp.DataContext/1.0.0": {
       "type": "project",
-      "path": "../DataAccessLayer/DataAccessLayer.csproj",
-      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+      "path": "../FoodApp.DataContext/FoodApp.DataContext.csproj",
+      "msbuildProject": "../FoodApp.DataContext/FoodApp.DataContext.csproj"
+    },
+    "FoodApp.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../FoodApp.Interfaces/FoodApp.Interfaces.csproj",
+      "msbuildProject": "../FoodApp.Interfaces/FoodApp.Interfaces.csproj"
+    },
+    "FoodApp.Model/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/FoodApp.Model.csproj",
+      "msbuildProject": "../DataAccessLayer/FoodApp.Model.csproj"
+    },
+    "FoodApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../FoodApp.Services/FoodApp.Services.csproj",
+      "msbuildProject": "../FoodApp.Services/FoodApp.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataAccessLayer >= 1.0.0",
+      "FoodApp.DataContext >= 1.0.0",
+      "FoodApp.Model >= 1.0.0",
+      "FoodApp.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
@@ -2108,8 +2168,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\FoodApp.Model.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\FoodApp.Model.csproj"
+            },
+            "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\FoodApp.DataContext\\FoodApp.DataContext.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\FoodApp.DataContext\\FoodApp.DataContext.csproj"
+            },
+            "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\FoodApp.Services\\FoodApp.Services.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\FoodApp.Services\\FoodApp.Services.csproj"
             }
           }
         }

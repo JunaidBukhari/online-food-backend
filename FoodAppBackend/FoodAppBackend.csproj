@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -21,7 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\FoodApp.Model.csproj" />
+    <ProjectReference Include="..\FoodApp.DataContext\FoodApp.DataContext.csproj" />
+    <ProjectReference Include="..\FoodApp.Services\FoodApp.Services.csproj" />
   </ItemGroup>
 
 </Project>

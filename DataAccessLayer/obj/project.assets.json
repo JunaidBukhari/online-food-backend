@@ -1870,9 +1870,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\DataAccessLayer.csproj",
-      "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\FoodApp.Model.csproj",
+      "projectName": "FoodApp.Model",
+      "projectPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\FoodApp.Model.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HP\\Desktop\\All files\\muna\\Desktop Data\\Nouman Akram\\UMT DATA\\Semester 4\\Advance Software Development\\Final Project\\online-food-backend\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
