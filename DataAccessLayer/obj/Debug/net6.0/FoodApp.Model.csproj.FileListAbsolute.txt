@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\bin\Debug\net6.0\FoodApp.Model.deps.json
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\bin\Debug\net6.0\FoodApp.Model.runtimeconfig.json
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\bin\Debug\net6.0\FoodApp.Model.dll
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\bin\Debug\net6.0\FoodApp.Model.pdb
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.AssemblyInfo.cs
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.dll
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\refint\FoodApp.Model.dll
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.pdb
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\FoodApp.Model.genruntimeconfig.cache
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\ref\FoodApp.Model.dll
