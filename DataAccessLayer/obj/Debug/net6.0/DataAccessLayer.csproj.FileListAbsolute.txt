@@ -34,3 +34,5 @@ C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4
 C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
 C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
 C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\HP\Desktop\All files\muna\Desktop Data\Nouman Akram\UMT DATA\Semester 4\Advance Software Development\Final Project\online-food-backend\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
